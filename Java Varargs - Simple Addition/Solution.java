@@ -1,14 +1,11 @@
 import java.io.*;
 import java.lang.reflect.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 class Add {
     // A method that takes variable 
     // number of integer arguments.
-    static void add(int... a)
+    void add(int... a)
     {
         // using for each loop to display contents of a
         int sum = 0;
