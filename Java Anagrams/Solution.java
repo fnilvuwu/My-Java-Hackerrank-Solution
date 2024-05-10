@@ -6,7 +6,7 @@ public class Solution {
         if (a.length() != b.length()) {
             return false;
         }
-        // Assuming ASCII characters (128 characters)
+        // Assuming ASCII characters (128 characters), this is the only solution since it doesn't allow any import
         int[] charCount = new int[128];
         
         a = a.toLowerCase();
